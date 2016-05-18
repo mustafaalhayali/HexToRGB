@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B63EB3F11CED170100AC8055 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63EB3F01CED170100AC8055 /* UIColorExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B63EB3D21CED16A200AC8055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63EB3B51CED16A200AC8055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63EB3BC1CED16A200AC8055;
+			remoteInfo = HexToRGB;
+		};
+		B63EB3DD1CED16A200AC8055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B63EB3B51CED16A200AC8055 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B63EB3BC1CED16A200AC8055;
+			remoteInfo = HexToRGB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B63EB3D11CED16A200AC8055 /* HexToRGBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HexToRGBTests.xctest; path = "/Users/mustafaalhayali/Desktop/Apps/HexToRGB/build/Debug-iphoneos/HexToRGBTests.xctest"; sourceTree = "<absolute>"; };
+		B63EB3DC1CED16A200AC8055 /* HexToRGBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HexToRGBUITests.xctest; path = "/Users/mustafaalhayali/Desktop/Apps/HexToRGB/build/Debug-iphoneos/HexToRGBUITests.xctest"; sourceTree = "<absolute>"; };
+		B63EB3EF1CED170000AC8055 /* HexToRGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = HexToRGB.app; path = "/Users/mustafaalhayali/Desktop/Apps/HexToRGB/build/Debug-iphoneos/HexToRGB.app"; sourceTree = "<absolute>"; };
+		B63EB3F01CED170100AC8055 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B63EB3BA1CED16A200AC8055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63EB3CE1CED16A200AC8055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63EB3D91CED16A200AC8055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B63EB3B41CED16A200AC8055 = {
+			isa = PBXGroup;
+			children = (
+				B63EB3F01CED170100AC8055 /* UIColorExtension.swift */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63EB3BC1CED16A200AC8055 /* HexToRGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63EB3E51CED16A200AC8055 /* Build configuration list for PBXNativeTarget "HexToRGB" */;
+			buildPhases = (
+				B63EB3B91CED16A200AC8055 /* Sources */,
+				B63EB3BA1CED16A200AC8055 /* Frameworks */,
+				B63EB3BB1CED16A200AC8055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexToRGB;
+			productName = HexToRGB;
+			productReference = B63EB3EF1CED170000AC8055 /* HexToRGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B63EB3D01CED16A200AC8055 /* HexToRGBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63EB3E81CED16A200AC8055 /* Build configuration list for PBXNativeTarget "HexToRGBTests" */;
+			buildPhases = (
+				B63EB3CD1CED16A200AC8055 /* Sources */,
+				B63EB3CE1CED16A200AC8055 /* Frameworks */,
+				B63EB3CF1CED16A200AC8055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63EB3D31CED16A200AC8055 /* PBXTargetDependency */,
+			);
+			name = HexToRGBTests;
+			productName = HexToRGBTests;
+			productReference = B63EB3D11CED16A200AC8055 /* HexToRGBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B63EB3DB1CED16A200AC8055 /* HexToRGBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63EB3EB1CED16A200AC8055 /* Build configuration list for PBXNativeTarget "HexToRGBUITests" */;
+			buildPhases = (
+				B63EB3D81CED16A200AC8055 /* Sources */,
+				B63EB3D91CED16A200AC8055 /* Frameworks */,
+				B63EB3DA1CED16A200AC8055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B63EB3DE1CED16A200AC8055 /* PBXTargetDependency */,
+			);
+			name = HexToRGBUITests;
+			productName = HexToRGBUITests;
+			productReference = B63EB3DC1CED16A200AC8055 /* HexToRGBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63EB3B51CED16A200AC8055 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mustafa Al-Hayali";
+				TargetAttributes = {
+					B63EB3BC1CED16A200AC8055 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B63EB3D01CED16A200AC8055 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B63EB3BC1CED16A200AC8055;
+					};
+					B63EB3DB1CED16A200AC8055 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B63EB3BC1CED16A200AC8055;
+					};
+				};
+			};
+			buildConfigurationList = B63EB3B81CED16A200AC8055 /* Build configuration list for PBXProject "HexToRGB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B63EB3B41CED16A200AC8055;
+			productRefGroup = B63EB3B41CED16A200AC8055;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63EB3BC1CED16A200AC8055 /* HexToRGB */,
+				B63EB3D01CED16A200AC8055 /* HexToRGBTests */,
+				B63EB3DB1CED16A200AC8055 /* HexToRGBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B63EB3BB1CED16A200AC8055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63EB3CF1CED16A200AC8055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63EB3DA1CED16A200AC8055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63EB3B91CED16A200AC8055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63EB3F11CED170100AC8055 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63EB3CD1CED16A200AC8055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B63EB3D81CED16A200AC8055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B63EB3D31CED16A200AC8055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63EB3BC1CED16A200AC8055 /* HexToRGB */;
+			targetProxy = B63EB3D21CED16A200AC8055 /* PBXContainerItemProxy */;
+		};
+		B63EB3DE1CED16A200AC8055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B63EB3BC1CED16A200AC8055 /* HexToRGB */;
+			targetProxy = B63EB3DD1CED16A200AC8055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B63EB3E31CED16A200AC8055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B63EB3E41CED16A200AC8055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B63EB3E61CED16A200AC8055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HexToRGB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.HexToRGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HexToRGB-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B63EB3E71CED16A200AC8055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = HexToRGB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.HexToRGB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HexToRGB-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		B63EB3E91CED16A200AC8055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HexToRGBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.HexToRGBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexToRGB.app/HexToRGB";
+			};
+			name = Debug;
+		};
+		B63EB3EA1CED16A200AC8055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HexToRGBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.HexToRGBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HexToRGB.app/HexToRGB";
+			};
+			name = Release;
+		};
+		B63EB3EC1CED16A200AC8055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HexToRGBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.HexToRGBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HexToRGB;
+			};
+			name = Debug;
+		};
+		B63EB3ED1CED16A200AC8055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HexToRGBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.HexToRGBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HexToRGB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B63EB3B81CED16A200AC8055 /* Build configuration list for PBXProject "HexToRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63EB3E31CED16A200AC8055 /* Debug */,
+				B63EB3E41CED16A200AC8055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63EB3E51CED16A200AC8055 /* Build configuration list for PBXNativeTarget "HexToRGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63EB3E61CED16A200AC8055 /* Debug */,
+				B63EB3E71CED16A200AC8055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B63EB3E81CED16A200AC8055 /* Build configuration list for PBXNativeTarget "HexToRGBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63EB3E91CED16A200AC8055 /* Debug */,
+				B63EB3EA1CED16A200AC8055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B63EB3EB1CED16A200AC8055 /* Build configuration list for PBXNativeTarget "HexToRGBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63EB3EC1CED16A200AC8055 /* Debug */,
+				B63EB3ED1CED16A200AC8055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63EB3B51CED16A200AC8055 /* Project object */;
+}
